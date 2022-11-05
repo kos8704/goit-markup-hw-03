@@ -133,11 +133,12 @@ img {
   align-items: center;
 }
 
-.nav-list .item  {
+.nav-list .item:not(:last-child)  {
 display: flex;
-margin-right: 50px;
 padding-top: 32px;
 padding-bottom: 32px;
+margin-right: 50px;
+
 }
 
 .contacts {
@@ -297,7 +298,7 @@ display: flex;
   font-size: 16px;
   line-height: 1.19;
   color: var(--primary-text-color);
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .teammate-item {
