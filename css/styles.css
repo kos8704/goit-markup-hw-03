@@ -49,6 +49,14 @@ a {
   color: inherit;
 }
 
+li.image:hover,
+li.image:focus {
+  box-shadow: 
+  0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06), 
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 body {
   margin: 0;
 }
@@ -182,6 +190,10 @@ margin-right: 50px;
   color: var(--pure-white-color);
   background-color: var(--accent-blue-color);
   cursor: pointer;
+  box-shadow: 
+  0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 1px 2px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .main-button {
@@ -206,6 +218,8 @@ margin-right: 50px;
   border: 0px;   
 }
 
+/*HERO*/
+
 .section-hero {
   background: var(--main-bckgd-color);
   color: var(--pure-white-color);
@@ -217,6 +231,13 @@ margin-right: 50px;
   letter-spacing: 0.06em;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
+   url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px;
 }
 
 .section-hero h1 {
@@ -315,6 +336,14 @@ display: flex;
 
 .teammate-descr {
   padding: 30px 0 30px;
+}
+
+.socials {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid black;
+  list-style: none;
 }
 
 
